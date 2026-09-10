@@ -1,0 +1,152 @@
+# KuberAI — Brutal & Honest Feedback
+
+## Product Tested
+
+KuberAI — Financial AI Agents
+
+## First Impression
+
+The overall concept is easy to understand. Instead of presenting one generic AI chatbot, KuberAI separates financial assistance into specialised agents. This makes the experience easier to navigate because a user can directly choose the area they need help with.
+
+The interface is clean, lightweight and focused on getting users to an agent quickly.
+
+## What I Liked
+
+### 1. Agent-Based Experience
+
+The separation between Tax Agent, MF Advisor and Equity Insights is one of the strongest parts of the product.
+
+A user does not have to figure out what kind of question to ask a general chatbot before starting.
+
+### 2. Simple User Flow
+
+The main flow is straightforward:
+
+Home → Select Agent → Chat → Receive Guidance
+
+The Noida Helpdesk also provides a location-specific entry point.
+
+### 3. Clear Purpose
+
+Each agent has a specific financial topic:
+
+- Tax Agent — tax and ITR-related questions
+- MF Advisor — mutual funds and SIP-related questions
+- Equity Insights — stocks and equity concepts
+
+This makes the product easy to understand.
+
+### 4. Usage Visibility
+
+The daily message quota gives users a clear understanding of how much usage remains.
+
+This is better than silently blocking users without explaining why they cannot continue.
+
+---
+
+# What Could Be Better
+
+## 1. The AI Responses Need to Feel More Useful
+
+The current mock backend uses rule-based/stub responses, which is appropriate for the assignment, but a production version would need substantially better responses.
+
+The answers should understand context and previous messages rather than simply responding with predefined information.
+
+## 2. Onboarding Could Be Stronger
+
+A first-time visitor may not immediately understand:
+
+- Which agent they should choose
+- What questions they can ask
+- What the AI can and cannot provide
+- When they should consult a professional
+
+A short onboarding experience or example questions would improve this.
+
+## 3. Trust Is Extremely Important
+
+Financial information requires a high level of user trust.
+
+The product should clearly communicate that the AI provides general information and guidance and should not be treated as a replacement for a qualified financial or tax professional.
+
+## 4. More Helpful Suggested Questions
+
+The chat page could display suggested questions before the first message.
+
+For example:
+
+- "How can I file my ITR?"
+- "What documents do I need?"
+- "What is a SIP?"
+- "How should I evaluate a stock?"
+
+This would make the first interaction easier.
+
+## 5. App CTA Needs the Real Destination
+
+The current app CTA uses a placeholder destination.
+
+For a production release, it should point to the actual application download page or official app store listing.
+
+## 6. Error States Need More Real-World Testing
+
+The application includes error-state requirements, but these should be tested against real network failures and backend failures before production deployment.
+
+Users should receive clear messages when:
+
+- The network fails
+- The backend returns a 5xx error
+- The daily quota is exhausted
+- The service is temporarily unavailable
+
+---
+
+# Biggest Concern
+
+The biggest concern is trust.
+
+A financial AI product should make it very clear what information it can provide and where its limitations are.
+
+Users should also know what information they should avoid sharing with the chatbot.
+
+The product should therefore prioritise:
+
+- Transparency
+- Privacy
+- Clear disclaimers
+- Reliable answers
+- Easy access to professional assistance when required
+
+---
+
+# What I Would Improve First
+
+1. Improve the quality and contextual relevance of AI responses.
+2. Add suggested questions and better first-time-user onboarding.
+3. Add stronger trust, privacy and financial-information disclaimers.
+4. Connect the app CTA to the real application.
+5. Perform more real-user testing across different financial questions.
+
+---
+
+# Overall Verdict
+
+KuberAI has a strong and understandable product concept.
+
+The specialised-agent approach is more focused than a generic chatbot and makes it easy for users to choose the type of financial assistance they need.
+
+The current implementation provides a good foundation for demonstrating the product, but the production version would need stronger AI responses, deeper testing, clearer trust messaging and real application integration.
+
+The most important next step would be validating the experience with real users and using their feedback to improve the product.
+
+## Final Rating
+
+Foundation: Good
+
+User Experience: Good
+
+Clarity: Good
+
+Production Readiness: Needs further testing
+
+Overall: Promising foundation with significant room for improvement.
